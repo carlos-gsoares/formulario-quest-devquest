@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    main {
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        background-size: cover;
+    }
+
+    main form {
+        display: flex;
+        margin: 5px;
+        padding: 10px;
+    }
+}

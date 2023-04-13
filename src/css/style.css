@@ -1,0 +1,106 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url(../image/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div {
+    display: flex;
+    width: 300px;
+    color: #FFFFFF;
+    flex-direction: column;
+    margin: 0 70px;
+}
+div .title {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+div .information {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 11px;
+}
+
+
+main form {
+    width: 340px;
+    min-height: 378px;
+    box-shadow: 0 27px 49px -25px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: -50px;
+}
+
+
+form div input {
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 10px;
+    margin: 15px 4px 0;
+}
+
+form div .first-input {
+    margin-top: 20px;
+}
+
+form div textarea {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 10px;
+    width: 298px;
+    margin: 15px 4px 0;
+}
+
+form p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 40px;
+    width: 100%;
+}
+
+form .btn {
+    width: 298px;
+    height: 41px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #3CCC87;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+}
+
+.error {
+    font-size: 8px;
+    color: #F52E2E;
+    margin-left: 10px;
+}
+
+.invalid {
+    border-color: red;
+}
+
+.error-hidden {
+    display: none;
+}
+
